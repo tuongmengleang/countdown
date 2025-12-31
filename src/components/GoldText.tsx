@@ -23,7 +23,7 @@ interface GoldTextProps {
 }
 
 export const GoldText: React.FC<GoldTextProps> = ({ config }) => {
-    const { content, style, fontSize, fontWeight, letterSpacing } = config;
+    const { content, style, fontWeight, letterSpacing } = config;
     
     const getStyleClasses = () => {
         switch (style) {
